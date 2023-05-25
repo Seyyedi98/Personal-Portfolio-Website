@@ -1,0 +1,32 @@
+body {
+  background-color: var(--color-bg-body);
+}
+header {
+  grid-column: center-start / center-end;
+}
+
+.header {
+  margin-top: 10vh;
+  @include absCenter;
+}
+
+.about {
+  @include absCenter;
+  margin-top: 10rem;
+  grid-row: 3/4;
+  grid-column: center-start / center-end;
+}
+
+.skills {
+  @include absCenter;
+  margin-top: 12rem;
+  grid-row: 4 / 5;
+  grid-column: center-start / center-end;
+}
+
+.services {
+  @include absCenter;
+  margin-top: 20rem;
+  grid-row: 5 / 6;
+  grid-column: center-start / center-end;
+}

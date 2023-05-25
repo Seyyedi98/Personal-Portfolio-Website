@@ -1,0 +1,60 @@
+.header {
+  height: calc(100vh - 12rem);
+  grid-row: 2/3;
+  grid-column: center-start / center-end;
+  align-content: center;
+
+  display: grid;
+  grid-template-columns: 10rem minmax(10rem, max-content) minmax(
+      10rem,
+      max-content
+    );
+  grid-template-rows: repeat(2, fit-content);
+  align-items: center;
+  justify-content: center;
+
+  &__icons {
+    justify-self: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.4rem;
+    gap: 1.6rem;
+    transition: all 0.2s;
+
+    & i {
+      color: var(--color-primary);
+
+      &:hover {
+        color: var(--color-hover);
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__text {
+    max-width: 60%;
+    margin-top: 1rem;
+  }
+
+  &__img img {
+    width: 90%;
+  }
+
+  &__btn {
+    margin-top: 3rem;
+  }
+}
+
+.scroll-down {
+  grid-column: 1/-1;
+  justify-self: center;
+  font-weight: 600;
+  color: var(--color-tertiary);
+  margin-top: 12rem;
+
+  & i {
+    color: var(--color-primary);
+    animation: arrowUpDown 1.2s infinite;
+  }
+}

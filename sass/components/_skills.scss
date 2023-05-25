@@ -1,0 +1,104 @@
+.skills {
+  &__title {
+    columns: 1/ -1;
+  }
+
+  &__content {
+    display: grid;
+    grid-template-rows: 1fr fit-content;
+    grid-template-columns: 6fr 5fr 6fr;
+    gap: 2rem;
+  }
+
+  &__heading {
+    grid-column: 1/-1;
+  }
+
+  &__text {
+    grid-column: 1/-1;
+    width: 55%;
+  }
+
+  &--label {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  &-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  &__edu {
+    grid-column: 1/2;
+  }
+
+  &__skills {
+    grid-column: 2/3;
+  }
+
+  &-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+
+    &--item {
+      background-color: var(--color-bg-card);
+      border-radius: 6px;
+      padding: 1.5rem 2rem;
+      box-shadow: var(--box-shadow);
+    }
+
+    &--title {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__awards {
+    grid-column: 3/4;
+  }
+
+  &__progress-bar {
+    width: 100%;
+    accent-color: var(--color-primary);
+  }
+}
+
+.exp {
+  &__content {
+    grid-column: 1/-1;
+  }
+
+  &__heading {
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+  }
+
+  &__subheading {
+    color: var(--color-secondary);
+    font-style: italic;
+  }
+
+  &__cards {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+  }
+
+  &__card {
+    padding: 3rem 3rem;
+
+    & .horizontal-line {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__text {
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,24 @@
+.horizontal-line {
+  height: 2px;
+  background-color: var(--color-line);
+}
+
+.label {
+  background-color: var(--color-primary);
+  color: var(--color-grey-light-1);
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  border-radius: 6px;
+  font-weight: 400;
+}
+
+.icon--pimary-color {
+  color: var(--color-primary);
+}
+
+.close-btn {
+  color: var(--color-tertiary);
+  position: relative;
+  right: -35rem;
+  top: -1rem;
+}

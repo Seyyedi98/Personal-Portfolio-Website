@@ -1,0 +1,50 @@
+:root {
+  // Main Theme colors
+  --color-primary: #6a59d1;
+  --color-secondary: #0e2431;
+  --color-tertiary: #777;
+
+  --color-grey-dark-1: #6d5d4b;
+  --color-grey-dark-2: #8a7a65;
+  --color-grey-light-1: #f9f7f6;
+  --color-grey-light-2: #aaa;
+
+  // Hover colors
+  --color-hover: #614fd0;
+
+  // Background colors
+  --color-bg-body: #f6f6f6;
+  --color-bg-card: #fff;
+  --color-bg-modal: #fff;
+  --color-bg-transparent: rgba(0, 0, 0, 0.1);
+  --color-transparent-1: rgba(0, 0, 0, 0.1);
+  --color-transparent-2: rgba(106, 89, 209, 0.1);
+  --color-line: #d7d7d7;
+
+  // Scroll bar colors
+  --color-scroll-bar: #c5cadf;
+  --color-scroll-thumb: #70768a;
+  --color-scroll-thumb-hover: #454f6b;
+
+  // color filter
+  --color-filter: invert(1);
+
+  // Box Shadow
+  --box-shadow: 0 1.5rem 5rem rgba(46, 50, 61, 0.06);
+
+  // Font size
+  --font-heading-primary: 6rem;
+  --font-heading-secondary: 4.5rem;
+  --font-heading-tertiary: 2rem;
+
+  --font-very-small: 1.3rem;
+  --font-small: 1.5rem;
+  --font-normal: 1.6rem;
+  --font-big: 1.8rem;
+
+  // RESPONSIVE BREAKPOINTS
+  $bp-largest: 75em; // 1200px
+  $bp-large: 62.5em; // 1000px
+  $bp-medium: 50em; // 800px
+  $bp-small: 37.5em; // 600px
+}

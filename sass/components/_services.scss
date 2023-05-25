@@ -1,0 +1,14 @@
+.services {
+  &-container {
+    display: flex;
+    gap: 4rem;
+  }
+
+  &__heading {
+    text-align: left;
+  }
+
+  &__more {
+    color: var(--color-tertiary);
+  }
+}
